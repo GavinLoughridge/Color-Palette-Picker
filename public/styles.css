@@ -3,86 +3,150 @@
 homepage
 =======================
 */
+
+.nav-wrapper {
+  background-color: #273859;
+}
+
+h2 {
+  /* font-family: Madjumbles; */
+  font-family: EatnCake;
+  /* font-family: Trashtalk; */
+  text-align: center;
+  font-size: 175px;
+  margin-top: 110px;
+}
+
+#signback {
+  background-image: url("splat.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+#loginbox {
+  padding: 1%;
+}
+
 .login {
-  border: 2px solid black;
-  height: 500px;
-  width: 600px;
+  border: 2px solid #273859;
+  width: 650px;
   margin: auto;
+  text-align: center;
+  background-color: #273859;
+  /* opacity: 0.95; */
+}
+
+div.row.log {
+  margin: 6% 4%;
+}
+
+input#username.validate.valid {
+  color: #fff;
+}
+
+/* .waves-effect {
+  background-color: #b73882;
+} */
+
+form {
+  margin-bottom: 50px;
+}
+
+div.row.log>h5 {
+  color: #fff;
+  margin-bottom: 20px;
 }
 
 li {
   list-style-type: none;
 }
 
-li>a {
-  color: black;
+
+/*
+=======================
+signup page
+=======================
+*/
+
+#signUp {
+  background-image: url("splat.jpg");
+  background-position: top;
+  background-size: cover;
 }
 
-.nav-wrapper {
+#signupbox {
+  padding: 1%;
+}
+
+.login {
+  border: 2px solid #273859;
+  width: 650px;
+  margin: auto;
+  text-align: center;
   background-color: #273859;
+  /* opacity: 0.95; */
+}
+
+div.row.log {
+  margin: 6% 4%;
+}
+
+input#username.validate.valid {
+  color: #fff;
 }
 
 
 /*
 =======================
-colorpicker
+projects page
 =======================
 */
-.colorpicker {
-  background-color: #222222;
-  border-radius: 5px 5px 5px 5px;
-  box-shadow: 2px 2px 2px #444444;
-  color: #FFFFFF;
-  font-size: 12px;
-  position: absolute;
-  width: 460px;
-  display: flex;
+
+#projectpage {
+  background-image: url("splat.jpg");
+  background-position: top;
+  background-size: cover;
 }
 
-#picker {
-  cursor: crosshair;
-  float: left;
-  margin: 10px;
-  border: 0;
-  height: 100%;
+#projectlist {
+  padding: 3%;
 }
 
-.controls {
-  float: right;
-  margin: 10px;
-  height: 300px;
-}
-
-.controls > div {
-  border: 1px solid #2F2F2F;
-  margin-bottom: 5px;
-  overflow: hidden;
-  padding: 5px;
-  height: 56px;
-}
-
-.controls label {
-  float: left;
-}
-
-.controls > div input {
-  background-color: #121212;
-  border: 1px solid #2F2F2F;
-  color: #DDDDDD;
-  float: right;
-  font-size: 10px;
-  height: 14px;
-  margin-left: 6px;
+#projectlist h5 {
+  border: 2px solid #273859;
+  width: 800px;
+  margin: auto;
   text-align: center;
-  text-transform: uppercase;
-  width: 75px;
+  background-color: #273859;
+  /* opacity: 0.95; */
+  font-size: 30px;
+  color: #fff;
+  height: 50px;
+  padding-top: 8px;
 }
 
-/* input[type=text]:not(.browser-default) {
-  margin-top: -10px;
+.collection {
   border: none;
-} */
+  margin: 20px 0px 20px 0px;
+}
 
+.collection a.collection-item {
+  border: 2px solid #273859;
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  background-color: #273859;
+  /* opacity: 0.95; */
+  font-size: 22px;
+}
+
+#newProject {
+  text-align: center;
+}
+
+button.btn.modal-trigger {
+  background-color: #b73882;
+}
 
 /*
 =======================
@@ -91,20 +155,23 @@ workbench page
 */
 
 .row.work {
-  margin-top: 50px;
+  margin-top: 45px;
 }
 
 #project {
-  height: 800px;
+  height: 846px;
 }
 
 .row .col.s3.toolbar {
   margin: 0px 20px 0px 60px;
+  border: 2px solid black;
+  padding: 1%;
 }
 
 iframe {
   height: 100%;
   width: 100%;
+  border: 2px solid black;
 }
 
 .assignEl {
@@ -124,14 +191,24 @@ iframe {
 }
 
 .selAtr {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 #tools h5 {
   font-size: 18px;
   font-weight: bold;
+  /* margin: 0px; */
 }
 
-.btn {
+/* .btn {
   background-color: #273859;
+} */
+
+.select-wrapper {
+  height: 40px;
+}
+
+.select-wrapper input.select-dropdown {
+  height: 30px;
+  /* margin-bottom: 0px; */
 }

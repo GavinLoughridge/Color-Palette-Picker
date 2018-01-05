@@ -8,6 +8,7 @@ const port = process.env.PORT || 8001;
 const session = require('express-session');
 const bcrypt = require('bcryptjs');
 const admin = require("firebase-admin");
+// const serviceAccount = require("../json/color-palette-picker.json");
 const serviceAccount = JSON.parse(process.env.firebaseConfig);
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
